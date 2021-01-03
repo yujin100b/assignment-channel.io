@@ -7,16 +7,13 @@ Data URL :
 https://restcountries.eu/rest/v2/all?fields=alpha2Code;capital;name;region;callingCodes
 
 ## 설치
-node version : 15.5.0
-`npm install`
+`npm install` node version : 15.5.0
 
 ## 실행 
-명령어 실행 후 http://localhost:8080/
-`npm start`
+`npm start` 명령어 실행 후 http://localhost:8080/
 
 ## 빌드
-명령어 실행 후 dist 파일에 빌드파일 생성
-`npm build`
+`npm build` 명령어 실행 후 dist 파일에 빌드파일 생성
 
 ## 요구 사항
 
