@@ -46,11 +46,12 @@ function PostListContainer() {
   if (error) return <div>에러 발생!</div>;
   if (!data) return null;
 
-  return (<>
+  return (
+    <div className="container">
     <input className="input" placeholder="검색어를 입력하세요" value={input} onChange={onInputChanged} />
     <p>*테이블 헤더를 누르면 오름차순/내림차순으로 정렬됩니다.</p>
     <PostList posts={data} onCreate={onCreate} onDelete={onDelete} onSort={onSort} />
-  </>
+    </div>
   )
 }
 

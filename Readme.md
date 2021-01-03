@@ -6,6 +6,10 @@
 Data URL :
 https://restcountries.eu/rest/v2/all?fields=alpha2Code;capital;name;region;callingCodes
 
+## 설치
+node version : 15.5.0
+`npm install`
+
 ## 실행 
 명령어 실행 후 http://localhost:8080/
 `npm start`
