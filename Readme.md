@@ -22,7 +22,8 @@ https://restcountries.eu/rest/v2/all?fields=alpha2Code;capital;name;region;calli
 - 보일러 플레이트(create-react-app 등)를 사용하지 않아야 함.
     - webpack.config.js 작성
 - 버튼을 누르면 각 필드별 오름차순, 내림차순 정렬이 되어야 함.
-    - useDispatch를 이용하여 선택한 key
+    - useDispatch를 이용하여 선택한 key에 따라 행 정렬 구현
+    - 같은 키를 중복으로 누르면 오름차순/내림차순이 Toggle
 - 검색 창이 있어 통합 검색이 되어야 함. (Case insensitive, 부분일치)
     - 대소문자 구별하지 않고, 부분일치하는 모든 row를 반환
     - useDispatch를 이용. search 함수를 따로 구현하여 매칭되는 row를 필터링 하여 State에 저장
